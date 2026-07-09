@@ -1,14 +1,27 @@
 # Manufacturing Execution System (MES)
 
-This project implements a Manufacturing Execution System (MES) in MATLAB.
+This project implements a simplified Manufacturing Execution System (MES) for a bicycle manufacturing case study.
 
 ## Features
-- SQL Server integration
+- SQL Server database design
 - Johnson scheduling algorithm
-- Flow shop scheduling
 - MATLAB implementation
-- Verification scripts
+- SQL-MATLAB integration using JDBC
+- Verification using brute-force optimization
+- Performance evaluation on multiple scheduling instances
 
-## Requirements
+## Technologies
 - MATLAB
 - Microsoft SQL Server
+- Docker
+- JDBC
+- Azure Data Studio
+
+## Project Structure
+- SQL scripts
+- MATLAB source code
+- Verification scripts
+- Performance testing
+
+## Results
+The project stores manufacturing jobs in a SQL database, computes the optimal production sequence using Johnson's algorithm, verifies the solution mathematically, and evaluates performance on multiple production scenarios.
